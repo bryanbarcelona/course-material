@@ -1,5 +1,3 @@
-Okay, here is a simpler version focused on the materials:
-
 ***
 
 ## 💻 Course Materials: Computer Science & Programming Fundamentals
