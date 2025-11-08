@@ -1,6 +1,5 @@
 """
 Doctopus PDF classification and filing system.
-Production-grade, maintainable Python module with strict separation of concerns.
 """
 
 import glob
