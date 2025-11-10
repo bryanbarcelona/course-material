@@ -5,7 +5,9 @@ from splash_screen import print_title_screen
 
 # Man könnte noch implementieren: Visualisierung des Galgens (ich glaub Kylie macht das auch zumindest ist da was in ihrem Github)...öhm 
 # vielleicht dynamische Versuchszahl basierend auf der Wortlänge...joa mehr fällt mir grad nicht ein
-# 
+# Nachtrag: Ziemlich dumm....hangman hat ja per definition nur eine gestztet anzahl an Versuchen...duhhhhh....
+
+
 def wort_aussuchen(worte_liste, mindest_laenge=5):
     passende_worte = [wort for wort in worte_liste if len(wort) >= mindest_laenge]
     return random.choice(passende_worte)
@@ -19,7 +21,6 @@ das_wort = wort_aussuchen(worte, mindest_laenge=int(anzahl_der_buchstaben))
 
 def galgenraten(wort: str, versuche: int = 6) -> None:
 
-    print_title_screen()
     # Debug print krams
     #print(wort)
     if versuche < len(wort):
