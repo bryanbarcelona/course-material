@@ -266,11 +266,11 @@ if __name__ == "__main__":
 # unique = np.unique(test_ravel)
 # print(unique)
 
-test2 = np.array(([1, 1, 0],
-                 [0, 0, 0],
-                [0, 2, 0]))
+# test2 = np.array(([1, 1, 0],
+#                  [0, 0, 0],
+#                 [0, 2, 0]))
 
-print(test2[0])
+# print(test2[0])
 # print("HERE")
 # print(test2)
 # tuples = schon_gewonnen_test(test2)
