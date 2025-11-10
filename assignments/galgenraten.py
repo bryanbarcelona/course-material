@@ -35,6 +35,9 @@ def galgenraten(wort: str, versuche: int = 6) -> None:
     while versuchstracking < versuche:
         geratenes_wort = input("Bitte gib eine heilige Rune ein oder das vollständige Wort ein: ").lower()
 
+        if geratenes_wort == str(wort):
+            print("Wowi das hast du voll fein gemacht.")
+            break
         if len(geratenes_wort) == 1 and geratenes_wort.isalpha():
             if geratenes_wort in wort:
                 versuchstracking += 1
