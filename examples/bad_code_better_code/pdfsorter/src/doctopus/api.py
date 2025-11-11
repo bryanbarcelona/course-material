@@ -231,3 +231,8 @@ class DoctopusPrimeNexus:
                 results[pdf_file] = False
 
         return results
+    
+
+
+
+    
